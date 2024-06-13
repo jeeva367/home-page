@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 975px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 2rem;
+}
+
+.search-bar {
+    background-color: white;
+    border: 2px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 215px;
+}
+
+.nav-icons img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.feed {
+    width: 600px;
+    margin-right: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.post-header, .post-footer {
+    padding: 10px;
+}
+
+.post-profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.post-username {
+    font-weight: bold;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.post-icons img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.post-likes {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.post-caption {
+    margin-top: 5px;
+}
+
+.caption-username {
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-profile-pic {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar-username {
+    font-weight: bold;
+}
+
+.suggestions {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.suggestion-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.suggestion-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.suggestion-username {
+    font-weight: lighter;
+}
+
+.suggestion-follow {
+    color: rgb(17, 129, 199);
+    cursor: pointer;
+}
